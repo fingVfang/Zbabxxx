@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hexgame.HexGameController">
+    <Label fx:id="turnLabel" text="Sıra: Oyuncu 1" />
+    <AnchorPane fx:id="tileMap" prefHeight="500.0" prefWidth="500.0" />
+    <Button text="5x5" onAction="#handle5x5" />
+    <Button text="11x11" onAction="#handle11x11" />
+    <Button text="17x17" onAction="#handle17x17" />
+    <Button text="Nasıl Oynanır?" onAction="#handleHowToPlay" />
+</VBox>
